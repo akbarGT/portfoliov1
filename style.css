@@ -1,5 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=FAMILY_NAME:wght@WEIGHT_OR_RANGE&display=swap');
 
+body{
+    background-color: rgb(237, 242, 248);
+}
+
 *{
     padding: 0;
     margin: 0;
@@ -23,6 +27,7 @@ nav{
     z-index: 111;
     /* background-color: bisque; */
     line-height: 80px;
+    z-index: 111;
 }
 
 .logo{
@@ -35,18 +40,27 @@ nav{
     text-transform: uppercase;
 
 }
-b{
+.logo:hover{
+    cursor: pointer;
+    background: -webkit-linear-gradient( #02d097, #05839a);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+/* b{
     font-size: 70px;
     color: violet;
-}
+} */
 
 .navItems{
     display: flex;
+    float: right;
+  
 }
 .navItems li{
     list-style: none;
     margin-right: 15px;
     text-transform: capitalize;
+   
     
 }
 .navItems li a{
@@ -60,7 +74,11 @@ b{
 }
 .navItems li:hover a{
     color: rgb(28, 133, 110);
-
+    border: 2px black;
+    text-decoration: underline ;
+    background: -webkit-linear-gradient( #02d097, #05839a);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
 }
 .links a{
     font-size: 30px;
@@ -68,7 +86,10 @@ b{
     margin: 25px 10px;
 }
 .links a:hover{
-    color: rgb(28, 133, 110);
+    color: rgb(23, 124, 102);
+    /* border: 2px; */
+    /* background-color: blueviolet; */
+    
 }
 .wrapper{
     display: flex;
@@ -131,7 +152,7 @@ h1{
     color: rgb(28, 133, 110) ;
     text-transform: capitalize;
 }
-p{
+.container p{
     display: block;
     width: 90%;
     color: #3d535f;
@@ -155,6 +176,7 @@ button{
     padding: 8px 14px;
     margin: 40px 5px;
     letter-spacing: 2px;
+    height: 58px;
     text-transform: capitalize;
     box-shadow: 0 11px 10px rgb(0,0,0,0.4);
 }
@@ -202,4 +224,54 @@ button:hover{
         left: 51%;
         width: 155%;
     }
+}
+
+.aboutMe{
+    background-color: white;
+    margin-left: 10%;
+    margin-right: 10%;
+    /* border: 3px solid rgba(109, 107, 107, 0.459); */
+    /* border: 100px; */
+    border-radius: 5px;
+    padding-top: 10px;
+    margin-top: 50px;
+    height: 250px;
+    padding-bottom: 50px;
+    box-shadow: 0 8px 60px rgb(0,0,0,0.4);
+    display: flex;
+    
+}
+.about h2{
+    margin-top: 20px;
+    margin-left: 20px;
+    font-size: 2.5em;
+    font-weight: 500;
+    text-transform: capitalize;
+    text-align: center;
+    font-weight: 800;
+    color: #3d535f;
+   
+
+}
+.aboutMe span{
+    margin-top: 10px;
+    font-weight: 510;
+    color: #6d6a7c;
+    letter-spacing: 1px;
+    padding-top: 10px;
+    
+}
+.coderImg{
+    float: left;
+    height: 180px;
+    margin-top: 20px;
+
+}
+
+.projects h2{
+    text-align: center;
+    margin-top: 40px;
+    font-size: 2.5em;
+    font-weight: 800;
+    color: #3d535f;
 }
