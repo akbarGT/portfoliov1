@@ -28,7 +28,7 @@ nav{
     display: flex;
     font-size: 40px;
     font-weight: 600;
-    color: grey;
+    color: rgba(128, 128, 128, 0.87);
     letter-spacing: 3px;
     text-transform: uppercase;
 
@@ -169,7 +169,9 @@ button:hover{
     width: calc(130% - 80px);
     top: 0px;
     right: 50px;
-    animation: animateUser 4s linear infinite;
+    margin-top: 15%;
+    transform: rotateY('angle');
+    /* animation: animateUser 4s linear infinite; */
 }
 @keyframes animateUser{
     50%{
