@@ -4,6 +4,11 @@ body{
     background-color: rgb(237, 242, 248);
 }
 
+html {
+    scroll-behavior: smooth;
+  }
+
+
 *{
     padding: 0;
     margin: 0;
@@ -345,3 +350,4 @@ button:hover{
     border: 2px solid #bab4ef;
     background-color: #edf2f8;
 }
+
