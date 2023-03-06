@@ -164,7 +164,7 @@ h1{
     left: 150px;
 }
 
-button{
+.container button{
     border-radius: 5px;
     outline: none;
     border: none;
@@ -226,6 +226,7 @@ button:hover{
     }
 }
 
+
 .aboutMe{
     background-color: white;
     margin-left: 10%;
@@ -235,10 +236,11 @@ button:hover{
     border-radius: 5px;
     padding-top: 10px;
     margin-top: 50px;
-    height: 250px;
+    height: auto;
     padding-bottom: 50px;
     box-shadow: 0 8px 60px rgb(0,0,0,0.4);
     display: flex;
+    width: 1100px;
     
 }
 .about h2{
@@ -268,10 +270,78 @@ button:hover{
 
 }
 
+
 .projects h2{
     text-align: center;
     margin-top: 40px;
     font-size: 2.5em;
     font-weight: 800;
     color: #3d535f;
+}
+
+.contact{
+    height: 800px;
+    width: auto;
+    margin-left: 90px;
+    margin-right: 90px;
+    border-radius: 10px;
+    background-color: #fbfbfe;
+}
+
+.contact h2{
+    text-align: center;
+    margin-top: 40px;
+    font-size: 2.5em;
+    font-weight: 800;
+    color: #3d535f;
+}
+
+.contact .message{
+    height: 630px;
+    width: 608px;
+    background-color: #edf2f8;
+    border-radius: 15px;
+    float: right;
+    margin-right: 250px;
+    margin-top: 70px;
+    border: 2px solid #bab4ef;
+}
+.contact .message h3{
+    font-weight: 500;
+    font-size: 2em;
+    padding-top: 50px;
+    padding-left: 10px;
+    color: #6d6a7c;
+    letter-spacing: 1px;
+}
+
+.contact form{
+
+    font-weight: 510;
+    color: #6d6a7c;
+    letter-spacing: 1px;
+}
+.contact input{
+    height: 45px;
+    width: 560px;
+    padding-left: 8px;
+    margin-left: 18px;
+    border-radius: 6px;
+    margin-top: 4px;
+    border: none;
+}
+.contact label  {
+    padding-left: 8px;
+    margin-left: 9px;
+    
+}
+.contact button{
+    height: 44px;
+    width: 222px;
+    font-weight: 510;
+    border-radius: 12px;
+    margin-top: 20px;
+    margin-left: 18px;
+    border: 2px solid #bab4ef;
+    background-color: #edf2f8;
 }
