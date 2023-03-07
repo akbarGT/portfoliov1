@@ -27,13 +27,12 @@ html {
 nav{
     display: flex;
     width: 100%;
-    justify-content: space-around;
-    height: 80px;
+    justify-content: space-evenly;
+    height: 70px;
     z-index: 111;
-    /* background-color: bisque; */
     line-height: 80px;
-    z-index: 111;
-    position: sticky;
+    z-index: 1000;
+    position: fixed;
     top: 0px;
     background-color: #f5f5f5;
 }
@@ -46,7 +45,7 @@ nav{
     /* color: rgba(128, 128, 128, 0.87); */
     letter-spacing: 3px;
     text-transform: uppercase;
-
+    margin-left: 3%;
 }
 .logo:hover{
     cursor: pointer;
@@ -62,14 +61,13 @@ nav{
 .navItems{
     display: flex;
     float: right;
-  
+    justify-content: left;  
+    align-content: left;
 }
 .navItems li{
     list-style: none;
     margin-right: 15px;
-    text-transform: capitalize;
-   
-    
+    text-transform: capitalize;    
 }
 .navItems li a{
     font-size: 25px;
@@ -91,7 +89,7 @@ nav{
 .links a{
     font-size: 30px;
     color: darkgrey;
-    margin: 25px 10px;
+    margin-left: 25px;
 }
 .links a:hover{
     color: rgb(23, 124, 102);
