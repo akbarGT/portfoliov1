@@ -61,9 +61,9 @@ nav{
 
 .navItems{
     display: flex;
-    float: right;
-    justify-content: left;  
-    align-content: left;
+    /* float:right; */
+    justify-content: flex-end;  
+    align-content:flex-end;
 }
 .navItems li{
     list-style: none;
