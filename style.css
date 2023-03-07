@@ -23,6 +23,7 @@ html {
     min-height: 100vh;
     background-color: whitesmoke;
     height: 980px;
+    margin-top: 3.6%;
 }
 nav{
     display: flex;
@@ -178,7 +179,7 @@ h1{
     font-size: 25px;
     font-weight: 400;
     color: white;
-    background-color: #3d535f;
+    background-color: #6e57e0;
     padding: 8px 14px;
     margin: 40px 5px;
     letter-spacing: 2px;
