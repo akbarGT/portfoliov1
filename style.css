@@ -236,7 +236,7 @@ button:hover{
 
 .aboutMe{
     background-color: white;
-    margin-left: 10%;
+    margin-left: 5%;
     margin-right: 1%;
     /* border: 3px solid rgba(109, 107, 107, 0.459); */
     /* border: 100px; */
@@ -388,6 +388,13 @@ button:hover{
     margin-top: 50px;
     margin-right: 4%;
     border-radius: 8px;
+}
+
+.leetcode h3{
+    margin-left: 2%;
+    margin-top: 2%;
+    font-weight: 520;
+    text-transform: capitalize ;
 }
 
 
