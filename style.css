@@ -53,6 +53,7 @@ nav{
     background: -webkit-linear-gradient( #02d097, #05839a);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
+    background-clip: unset;
 }
 /* b{
     font-size: 70px;
@@ -86,6 +87,7 @@ nav{
     background: -webkit-linear-gradient( #02d097, #05839a);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
+    background-clip: unset;
 }
 .links a{
     font-size: 30px;
@@ -382,6 +384,8 @@ button:hover{
 /* leetcode */
 
 .leetcode{
+    display: flex;
+    /* justify-content: flex-start; */
     width: 600px;
     height: 350px;
     background-color: white;
@@ -391,12 +395,78 @@ button:hover{
 }
 
 .leetcode h3{
-    margin-left: 2%;
-    margin-top: 2%;
+    margin-top: 6%;
+    margin-bottom: 20%;
+    margin-left: 6%;
+    width: 100%;
+    height: auto;
     font-weight: 520;
     text-transform: capitalize ;
 }
 
 
 
-/*  */
+/* circle progress bar */
+.pg{
+    padding-left: 2%;
+}
+
+.circular-progress{
+
+    position: relative;
+    height: 190px;
+    width: 190px;
+    border-radius: 56%;
+    background: conic-gradient(#ffa116 3.6deg, #ededed 0deg);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.circular-progress::before{
+    
+    content: "";
+    position: absolute;
+    height: 170px;
+    width: 170px;
+    border-radius: 50%;
+    background-color: #fff;
+}
+.progress-value{
+    position: relative;
+    font-size: 40px;
+    font-weight: 600;
+    
+    color: #ffa116;
+}
+.circular-progress text{
+    font-size: 30px;
+    font-weight: 500;
+    color: #606060;
+
+}
+
+.leetdifs{
+    margin-top: 17%;
+    margin-left: 5%;
+    margin-right: 5%;
+    width: 100%;
+}
+
+.green{
+    border: 2px solid green;
+    width: 100%;
+    margin-bottom: 7%;
+    border-radius: 5px;
+}
+.yellow{
+    border: 2px solid yellow;
+    width: 100%;
+    margin-bottom: 7%;
+    border-radius: 5px;
+}
+.red{
+    border: 2px solid red;
+    width: 100%;
+    border-radius: 5px;
+}
+
