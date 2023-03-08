@@ -187,7 +187,8 @@ h1{
     font-size: 25px;
     font-weight: 400;
     color: white;
-    background-color: #6e57e0;
+    /* background-color: #6e57e0; */
+    background-color: #57e085;
     padding: 8px 14px;
     margin: 40px 5px;
     letter-spacing: 2px;
