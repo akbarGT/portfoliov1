@@ -2,6 +2,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@1,500&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');    
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@480&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+
+/* font-family: 'Inter', sans-serif; */
 
 body{
     background-color: rgb(237, 242, 248);
@@ -125,6 +129,7 @@ nav{
     left: -12%;
     top: 40%;
     background: linear-gradient(45deg, rgb(28, 133, 110), rgb(197, 230, 50) );
+    opacity: 40%;
     animation: object1 2    s linear infinite;
 }
 
@@ -187,7 +192,7 @@ h1{
     font-size: 25px;
     font-weight: 400;
     color: white;
-    background-color: #6e57e0;
+    background-color: #4b4a4e;
     padding: 8px 14px;
     margin: 40px 5px;
     letter-spacing: 2px;
